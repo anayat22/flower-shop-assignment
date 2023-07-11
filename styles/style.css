@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styles of Header Section */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-container {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Styles on header image */
+
+/* .header-items2{
+   
+    background: lightgray 50%;
+    
+} */
+
+.header-image {
+    margin: 50px 240px 0px 1045px;
+    margin-bottom: 0px;
+}
+
+.header-items {
+    display: block;
+    text-align: center;
+    margin: 197px 97px 0px 240px;
+
+}
+
+.header-title {
+    color: #272727;
+
+    font-size: 80px;
+    width: 100%;
+
+    font-weight: 800;
+    text-align: left;
+    display: flex;
+
+}
+
+.header-description {
+    margin: 32px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
