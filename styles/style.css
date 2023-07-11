@@ -142,8 +142,9 @@ header {
     font-weight: 800;
     line-height: normal;
 }
-span{
-    color:#E55473;
+
+span {
+    color: #E55473;
 }
 
 .hot-deal-offer-description {
@@ -152,7 +153,21 @@ span{
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+    margin-bottom: 32px;
 }
-.hot-deal-offer-image{
+
+.hot-deal-offer-image {
     padding: 100px 429px 100px 0px;
+}
+
+.instagram-image{
+    display: flex;
+    text-align: center;
+    margin: 50px;
+    gap: 24px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.subscrib-section{
+    background-image: url("/images/Rectangle 9.png");
 }
