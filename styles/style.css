@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 /* Styles of Header Section */
@@ -180,10 +181,11 @@ span {
     margin: 128px 280px;
 }
 
-.main-title-add{
+.main-title-add {
     padding-top: 122px;
 }
-.input-box{
+
+.input-box {
     text-align: center;
 }
 
@@ -196,4 +198,28 @@ span {
     background: #FFF;
     border: 0;
     font-size: 18px;
+}
+
+.foooter-section {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    margin: 120px 0px;
+    background-size: cover;
+    width: 100%;
+}
+.footer-items{
+    margin: 40px;
+    padding: 10px;
+}
+
+.footer-description {
+    text-align: center;
+    color: rgba(255, 254, 254, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+    margin-top: 24px;
 }
