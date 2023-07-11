@@ -67,13 +67,16 @@ header {
 
 }
 
-.main-title{
-  text-align: center; 
-  margin-top: 178px;
-  font-size: 40px;
-  /* padding: 178px 764px 132px 764px; */
+/* style on main section */
+
+.main-title {
+    text-align: center;
+    margin-top: 178px;
+    font-size: 40px;
+
 }
-.main-description{
+
+.main-description {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -82,6 +85,7 @@ header {
     margin-bottom: 48px;
     margin-top: 24px;
 }
+
 .fetur-flower {
     width: 464px;
     height: 538px;
@@ -90,7 +94,65 @@ header {
     background: rgba(167, 33, 98, 0.15);
     margin: 24px;
 }
-.main-features{
+
+.main-features {
     display: flex;
     margin: 0 240px;
+}
+
+.feture-img {
+    padding: 110px 76px 0px 76px;
+}
+
+.feture-img1 {
+    padding: 67px 75px 0px 75px;
+}
+
+.feture-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.main-hot-deal {
+    display: flex;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 128px 0px;
+    background-size: cover;
+    width: 100%;
+}
+
+.hot-deal-offer {
+    text-align: center;
+    margin: 302px 186px 258px 395px;
+}
+
+.hot-deal-offer-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+span{
+    color:#E55473;
+}
+
+.hot-deal-offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.hot-deal-offer-image{
+    padding: 100px 429px 100px 0px;
 }
